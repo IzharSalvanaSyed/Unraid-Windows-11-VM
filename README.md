@@ -35,6 +35,14 @@ I am writing this because I, like many others, forget how to install some Virtua
        - Manual - Create your folder location within a cache or Disk array.
     7. **Primary vDisk Size**—The default is 64G, but you can choose whatever size you need if space is available on your install disk. 
     8. **Unraid Share Mode**—This allows you to pass through Unraid Shares into the Windows 11 VM. Choose whichever you want. You can add multiple by clicking on the + icon on the left.
-    9. **Graphics Card** - Default is Virtual or if you want to passthrough a GPU.
+    9. **Graphics Card** - The default is virtual, or you can pass through a GPU.
     10.  **VM Console Protocol**—I used the default VNC; I have never used SPICE, but the option is there if you need to use it.
-    11. 
+    11. The Rest should be Self-explanatory or left alone unless you know what you are doing.
+    12. Uncheck **Start VM after creation**
+    13. Press **Create**
+## Windows 11 Installation Process
+1. Start Windows 11 VM.
+- If using VNC, Start with VNC.
+- If passing through a GPU, just start VM.
+
+2. Will continue to write here. But This [video](https://www.youtube.com/watch?v=jJAU7pqn-YY&ab_channel=BCAdventure) is useful.
